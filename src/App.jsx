@@ -30,14 +30,14 @@ function App() {
         <image
           href="/Imagen de mamá.jpg"
           width="400"
-          height="400"
-          x="0"
-          y="0"
+          height="600"
+          x="-70"
+          y="20"
           clipPath="url(#heartClip)"
-          preserveAspectRatio="xMidYMid meet"
+          preserveAspectRatio="xMidYMin slice"
         />
       </svg>
-      <h1 className="mensaje">Te quiero mucho mamá</h1>
+      <h1 className="mensaje">Te amo mucho mamá</h1>
     </div>
   );
 }
